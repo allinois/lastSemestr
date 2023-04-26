@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/home_foreground" android:title="Home"
+        android:id="@+id/home"/>
+    <item android:icon="@drawable/cart_foreground" android:title="Cart"
+        android:id="@+id/cart"/>
+    <item android:icon="@drawable/history_foreground" android:title="History" android:id="@+id/history"/>
+    <item android:icon="@drawable/people_foreground" android:title="People" android:id="@+id/people"/>
+    <item android:icon="@drawable/location_foreground" android:title="Location" android:id="@+id/location"/>
+</menu>
