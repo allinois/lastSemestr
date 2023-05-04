@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Spiner</string>
+    <string-array name="mera">
+        <item>кг</item>
+        <item>гр</item>
+        <item>т</item>
+        <item>мм</item>
+        <item>см</item>
+        <item>м</item>
+        <item>км</item>
+    </string-array>
+
+
+</resources>

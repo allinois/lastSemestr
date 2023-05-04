@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "lastSemestr"
 include ':navigationPanel'
+include ':spiner'
+include ':converter'

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="385dp"
+        android:layout_height="525dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/Bananas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Бананы "
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/editTextBananas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="0"
+                android:inputType="number|phone"
+                android:minHeight="48dp"
+                android:textSize="26sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/Bluberry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Черника "
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/editTextBluberry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="0"
+                android:inputType="number|phone"
+                android:minHeight="48dp"
+                android:textSize="26sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="115dp">
+
+            <CheckBox
+                android:id="@+id/appleCB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Яблоки "
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/editTextApple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number|phone"
+                android:text="0"
+                android:minHeight="48dp"
+                android:textSize="26sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/Strawbery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Клубника "
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/editTextStrawbery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="0"
+                android:inputType="number|phone"
+                android:minHeight="48dp"
+                android:textSize="26sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/material_motion_duration_medium_1"
+                android:text="Расчитать"
+                android:textSize="24sp"
+
+                />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

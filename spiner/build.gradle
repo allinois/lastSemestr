@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.lastsemestr'
+    namespace 'com.example.spiner'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.lastsemestr"
+        applicationId "com.example.spiner"
         minSdk 24
         targetSdk 33
         versionCode 1
